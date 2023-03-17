@@ -4,7 +4,7 @@ const formEle = document.querySelectorAll('form');
 formEle.forEach(ele=>{
    ele.addEventListener('submit', (e)=>{
       e.preventDefault();
-      console.log(e)
+      ele.reset();
       gtag('event', 'form_submit', {
          form_id: e.target.id
       })
