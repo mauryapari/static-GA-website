@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Example</title>
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/contact-us.css">
+</head>
+
+<body>
+   <header>
+      <img src="https://picsum.photos/100/50" alt="My Website Logo">
+      <nav>
+         <a href="/">Home</a>
+         <a href="/product.html">Product</a>
+         <a href="/about.html">About</a>
+         <a href="/contact-us.html">Contact Us</a>
+      </nav>
+   </header>
+
+   <!-- HTML code for main content -->
+   <main>
+      <div class="container">
+         <h1 class="contact-heading">Contact Page</h1>
+         <hr>
+         <form action="#" method="POST">
+            <fieldset>
+               <legend>Contact Form</legend>
+               <p>First Name : <input type="text" name="fname" id="" placeholder="First Name" required></p>
+               <p>Last Name : <input type="text" name="lname" id="" placeholder="Last Name" required></p>
+               <p>E-mail : <input type="email" name="email" id="" placeholder="Enter Your Email" required></p>
+               <p>Contact No : <input type="number" name="contact_number" id="" placeholder="Contact Number" required>
+               </p>
+               <p>Address : <textarea name="address" id="address" cols="100" rows="10" placeholder="Address"
+                     required></textarea></p>
+               <p>City : <input type="text" name="city" id="" placeholder="City Name" required></p>
+               <p>State : <input type="text" name="state" id="" placeholder="State Name" required></p>
+               <p>Zip Code : <input type="number" name="zip" id="" placeholder="ZIP or Postel Code" required></p>
+               <p>Project Description : <textarea name="description" id="address" cols="100" rows="10"
+                     placeholder="Your Project Description" required></textarea></p>
+               <input type="submit" value="Send">
+            </fieldset>
+         </form>
+      </div>
+   </main>
+
+   <!-- HTML code for footer -->
+   <footer>
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+   </footer>
+
+</body>
+
+</html>
